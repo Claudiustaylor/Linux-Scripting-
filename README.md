@@ -8,10 +8,19 @@ Bash Shell Scripting to interact with User and display pertinent information
 
 #Description: The purpose of this script is to greet the user. /n
 
+# Greet the User
 echo “Welcome $USER!” /n
+
+#Tell the user the date
 echo “Today’s Date is: `date`”/n
+
+#Display the calendar
 cal /n
+
+#Show current host machine
+
 hostname /n
+
 uname -rs /n
 ls -a /n
 ps -aux | grep root /n
